@@ -102,3 +102,7 @@ Now, follow the OS-specific sections below to install Java, set up, and run the 
 - The output will list cloudlet details like ID, status, times—compare with defaults by modifying the code (e.g., remove the sort for FCFS).
 - To experiment further: Edit cloudlet lengths or VM counts in the code, recompile, and rerun.
 - If using a newer CloudSim version, check for API changes (e.g., class names) and adjust the code accordingly.
+
+
+javac -cp ".:/home/kali/Downloads/cloudsim-3.0.3/jars/cloudsim-3.0.3.jar:/home/kali/Downloads/cloudsim-3.0.3/jars/cloudsim-3.0.3.jar" example.java
+java -cp ".:/home/kali/Downloads/cloudsim-3.0.3/jars/cloudsim-3.0.3.jar:/home/kali/Downloads/cloudsim-3.0.3/jars/cloudsim-3.0.3.jar" example
